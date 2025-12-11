@@ -1,11 +1,136 @@
 <!-- index.html -->
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>My Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cool Homepage</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- Icons (Font Awesome) -->
+    <script src="https://kit.fontawesome.com/a2e8608c56.js" crossorigin="anonymous"></script>
+
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f7f4fa;
+            color: #2d2d2d;
+        }
+
+        header {
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .profile-pic {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            background-color: #ddd;
+            background-size: cover;
+            background-position: center;
+            margin: 0 auto 20px auto;
+            box-shadow: 0 0 20px rgba(0,0,0,0.07);
+        }
+
+        h1 {
+            font-size: 28px;
+            font-weight: 600;
+        }
+
+        .welcome-text {
+            max-width: 600px;
+            margin: 20px auto;
+            font-size: 18px;
+            font-weight: 300;
+            line-height: 1.5;
+        }
+
+        .links {
+            margin-top: 25px;
+        }
+
+        .links a {
+            margin: 0 12px;
+            font-size: 28px;
+            color: #6b4dbd;
+            text-decoration: none;
+            transition: 0.2s;
+        }
+
+        .links a:hover {
+            color: #8d67ff;
+            transform: scale(1.15);
+        }
+
+        section {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 14px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+        }
+
+        section h2 {
+            font-size: 22px;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px;
+            font-size: 14px;
+            color: #777;
+        }
+    </style>
 </head>
+
 <body>
-  <h1>Hello, world!</h1>
-  <p>This is my first website on GitHub Pages!</p>
+
+    <header>
+        <!-- Replace the URL below with your real profile picture -->
+        <div class="profile-pic" style="background-image: url('profile.jpg');"></div>
+
+        <h1>There's nothing here, yet!</h1>
+        <p class="welcome-text">
+            "But there will be once I start my PhD,
+            because my girlfriend thinks everything I do is super cool and is worth a chic webpage."
+        </p>
+
+        <div class="links">
+            <a href="https://github.com/YOUR_GITHUB_USERNAME" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/YOUR_LINKEDIN_USERNAME" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p></p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <p></p>
+    </section>
+
+    <section id="research">
+        <h2>Research</h2>
+        <p></p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p></p>
+    </section>
+
+    <footer>
+        © 2025 — Vibecoded with love
+    </footer>
+
 </body>
 </html>
